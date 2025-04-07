@@ -39,7 +39,7 @@
 
 // //METODOS
 // //lenght = verifica o tamanho da string
-// let frase ="o mundo da tecnologia"
+// let frasconste ="o mundo da tecnologia"
 // console.log(frase.length);
 
 // //indexOF - retorna um trecho do texto
@@ -62,19 +62,66 @@
 // console.log(num1 / num2)
 
 // Operadores logicos
-const num3=20;
-const num4="20";
+// const num3=20;
+// const num4=30;
 
-console.log(num3 < num4)
-console.log(num3 > num4 && num4 < num3);
-console.log(num3 > num4 || num4 < num3);
+// console.log(num3 < num4)
+// console.log(num3 > num4 && num4 < num3);
+// console.log(num3 > num4 || num4 < num3);
 
 //operadores de comparação
 //== - compara o valor
 //=== - compara o valor e o tipo de variavel 
 
-console.log(num3 == num4);
-console.log(num3 === num4);
+// console.log(num3 == num4);
+// console.log(num3 === num4);
+
+//ESTRUTURA CONDICIONAL
+
+// let logado="fiap"
+
+// if(logado=="fiap"){
+//     console.log("é verdadeiro")
+// }
+
+// //if/else
+// let usuario="teste"
+// if(usuario == "teste"){
+//     console.log("Usuario Correto")
+// }else{
+//     console.log("Usuario Errado")
+// }
+
+// if encadeado / alinhado
+
+// let idade =15
+
+// if(idade < 15){
+//     console.log("Menor de Idade")
+// }else if(idade >15 && idade < 18){
+//     console.log("não é maior mais pode entrar")
+// }else{
+//     console.log("Pode entrar é maior")
+// }
+
+// switch
+
+// let time ="corinthians"
+
+// switch(time){
+//     case "Corinthians":
+//         console.log("melhor time")
+//         break;
+//     case "São Paulo":
+//         console.log("Não é o melhor time")
+//         break
+//     case "Palmeiras":
+//         console.log("Não tem mundial")
+//         break;
+//     default:
+//         console.log("nenhuma das alternativas")        
+// }
 
 
+// ternario
 
